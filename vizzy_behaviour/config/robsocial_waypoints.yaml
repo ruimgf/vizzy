@@ -1,0 +1,241 @@
+points:
+  point1:
+    name: Quadro IST
+    speechString: _________Quadro interessante
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.161539276911
+      z_cord: 0.619330521451
+    pose:
+      x_cord: 6.82583618164
+      y_cord: -0.298132061958
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.0562285211913
+      quartinion_d: 0.998417925222
+  point2:
+    name: Nem carne nem peixe
+    speechString: silence5s
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.601618178873
+      z_cord: 0.224095496349
+    pose:
+      x_cord: 6.82583618164
+      y_cord: -0.382613778114
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.994299805782
+      quartinion_d: -0.10662033681
+  point3:
+    name: Escadas da sala de estudo
+    speechString: _________Cuidado com as escadas
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.19578182639
+      z_cord: -0.0652612527037
+    pose:
+      x_cord: 5.77421236038
+      y_cord: -0.905279278755
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.977314637185
+      quartinion_d: -0.211792587085
+  point4:
+    name: Placar do Viva o Ritmo
+    speechString: silence5s
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.173235377375
+      z_cord: 0.498420726409
+    pose:
+      x_cord: 2.8644828796
+      y_cord: -2.74097704887
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: -0.598005480569
+      quartinion_d: 0.801492011944
+  point5:
+    name: Placar de aluguer
+    speechString: _________Olha, pessoas a alugar coisas.
+    fixation_point:
+      x_cord: 1.5
+      y_cord: 0.0973222810166 
+      z_cord: 0.960639952322
+    pose:
+      x_cord: 14.8170385361
+      y_cord: -2.95126199722
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: -0.761200110734
+      quartinion_d: 0.648517071031
+  point6:
+    name: Placar do WC
+    speechString: _________Não consigo ler o que está neste placard
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.255905735466
+      z_cord: -0.132903105059
+    pose:
+      x_cord: 18.2798576355
+      y_cord: -2.99458551407
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: -0.708851171985
+      quartinion_d: 0.705358076424
+  point7:
+    name: Maquina da comida
+    speechString: _________Parece ser bom. Mas não consigo comer.
+    fixation_point:
+      x_cord: 1.5
+      y_cord: 0.104837718987
+      z_cord: 0.791535363655
+    pose:
+      x_cord: 19.922203064
+      y_cord: 12.430390358
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.620217316172
+      quartinion_d: 0.78443003558
+  point8:
+    name: Maquina da comida2
+    speechString: silence5s
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.0830495813139
+      z_cord: -1.02727840068
+    pose:
+      x_cord: 19.922203064
+      y_cord: 12.430390358
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.620217316172
+      quartinion_d: 0.78443003558
+  point9:
+    name: Maquina da comida 3
+    speechString: ' '
+    fixation_point:
+      x_cord: 1.5
+      y_cord: 0.00713634985137
+      z_cord: 0.35562127909
+    pose:
+      x_cord: 19.922203064
+      y_cord: 12.430390358
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.620217316172
+      quartinion_d: 0.78443003558
+  point10:
+    name: Maquina coca-cola
+    speechString: _________Olha, coca-cola
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.278452184481
+      z_cord: 0.34810557026
+    pose:
+      x_cord: 18.9359931946
+      y_cord: 12.5539255142
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.728744349156
+      quartinion_d: 0.684785859647
+  point11:
+    name: Maquina do cafe
+    speechString: _________Sou alérgico ao café. E a líquidos no geral.
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.0379565481792
+      z_cord: 0.0700224520074
+    pose:
+      x_cord: 18.9359931946
+      y_cord: 12.5539255142
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.728744349156
+      quartinion_d: 0.684785859647
+  point12:
+    name: Placard do multibanco
+    speechString: _________Um
+    fixation_point:
+      x_cord: 1.5
+      y_cord: 0.187508077078
+      z_cord: 0.55854680238
+    pose:
+      x_cord: 13.902557373
+      y_cord: 13.0574836731
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.695779308409
+      quartinion_d: 0.718255632759
+  point13:
+    name: Escadas da seguranca
+    speechString: _________Não consigo subir escadas
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.0755340082393
+      z_cord: 0.37065283186
+    pose:
+      x_cord: 6.76146888733
+      y_cord: 13.4361066818
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.917695145462
+      quartinion_d: -0.397285313087
+  point14:
+    name: Relogio
+    speechString: _________Tic Tac Tic Tac
+    fixation_point:
+      x_cord: 1.5
+      y_cord: 0.0836535250107
+      z_cord: 0.905399122557
+    pose:
+      x_cord: 7.147149086
+      y_cord: 10.979344368
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: -0.0204962519017
+      quartinion_d: 0.999789929764
+  point15:
+    name: TV dos elevadores
+    speechString: silence5s
+    fixation_point:
+      x_cord: 1.5
+      y_cord: 0.140865129254
+      z_cord: 0.766451514858
+    pose:
+      x_cord: 13.1157531738
+      y_cord: 8.31262111664
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: -0.00998402291442
+      quartinion_d: 0.999950158401
+  point16:
+    name: Pilhas
+    speechString: _________Isto dá-me fome
+    fixation_point:
+      x_cord: 1.5
+      y_cord: 0.304327019719 
+      z_cord: 0.856358791421 
+    pose:
+      x_cord: 6.41749477386
+      y_cord: 8.2398443222
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.999997911952
+      quartinion_d: 0.00204354865763

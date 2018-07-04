@@ -43,10 +43,14 @@
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
   <build_depend>smach</build_depend>
+  <build_depend>behavior_tree_core</build_depend>
+  <build_depend>behavior_tree_leaves</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>vizzy_msgs</build_depend>
   <build_depend>woz_dialog</build_depend>
   <run_depend>roscpp</run_depend>
+  <run_depend>behavior_tree_core</run_depend>
+  <run_depend>behavior_tree_leaves</run_depend>
   <run_depend>rospy</run_depend>
   <run_depend>smach</run_depend>
   <run_depend>std_msgs</run_depend>

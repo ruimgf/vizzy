@@ -1,0 +1,31 @@
+points:
+  point1:
+    name: Ponto1
+    speechString: _________Quadro interessante
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.161539276911
+      z_cord: 0.619330521451
+    pose:
+      x_cord: 6.82583618164
+      y_cord: -0.298132061958
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.0562285211913
+      quartinion_d: 0.998417925222
+  point2:
+    name: Ponto2
+    speechString: silence5s
+    fixation_point:
+      x_cord: 1.5
+      y_cord: -0.601618178873
+      z_cord: 0.224095496349
+    pose:
+      x_cord: 6.82583618164
+      y_cord: -0.382613778114
+      z_cord: 0.0
+      quartinion_a: 0.0
+      quartinion_b: 0.0
+      quartinion_c: 0.994299805782
+      quartinion_d: -0.10662033681

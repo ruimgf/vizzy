@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(vizzy_behaviour)
 
+## Compile as C++11, supported in ROS Kinetic and newer
+add_compile_options(-std=c++11)
+
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
@@ -10,10 +13,12 @@ find_package(catkin REQUIRED COMPONENTS
   smach
   std_msgs
   vizzy_msgs
+  behavior_tree_core
 )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
+find_package(yaml-cpp REQUIRED)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -102,9 +107,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+  INCLUDE_DIRS include
 #  LIBRARIES vizzy_behaviour
-#  CATKIN_DEPENDS roscpp rospy smach std_msgs vizzy_msgs woz_dialog
+   CATKIN_DEPENDS roscpp rospy behavior_tree_core std_msgs
 #  DEPENDS system_lib
 )
 
@@ -117,7 +122,13 @@ catkin_package(
 # include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  include
 )
+
+aux_source_directory(src srcDir)
+aux_source_directory(src/actions srcActionsDir)
+aux_source_directory(src/conditions srcConditionsDir)
+aux_source_directory(src/working_memory srcWMDir)
 
 ## Declare a C++ library
 # add_library(vizzy_behaviour
@@ -130,16 +141,18 @@ include_directories(
 # add_dependencies(vizzy_behaviour ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(vizzy_behaviour_node src/vizzy_behaviour_node.cpp)
+add_executable(vizzy_bt_node src/vizzy_bt_node.cpp ${srcDir} ${srcActionsDir} ${srcConditionsDir} ${srcWMDir})
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(vizzy_behaviour_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(vizzy_bt_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(vizzy_behaviour_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(vizzy_bt_node
+  ${catkin_LIBRARIES}
+  ${behavior_tree_core_LIBRARIES}
+  ${YAML_LIBRARIES}
+)
 
 #############
 ## Install ##
