@@ -151,7 +151,7 @@ add_dependencies(vizzy_bt_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPO
 target_link_libraries(vizzy_bt_node
   ${catkin_LIBRARIES}
   ${behavior_tree_core_LIBRARIES}
-  ${YAML_LIBRARIES}
+  yaml-cpp
 )
 
 #############

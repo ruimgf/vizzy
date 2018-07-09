@@ -10,6 +10,8 @@ int main(int argc, char **argv)
     ros::NodeHandle nh;
 
     WorkingMemory *wm = new WorkingMemory();
+
+    std::string waypoint_path;
     
     try
     {
@@ -18,8 +20,8 @@ int main(int argc, char **argv)
         BT::ActionGotoPointNode* action_goto =
             new BT::ActionGotoPointNode("Act:GotoPoint", wm);
         
-        BT::ActionChoosePoseNode* action_choose_pose =
-            new BT::ActionChoosePoseNode("Act:ChoosePose", wm);
+       BT::ActionChoosePoseNode* action_choose_pose =
+            new BT::ActionChoosePoseNode("Act:ChoosePose", wm, waypoint_path);
         
         BT::SequenceNodeWithMemory* sequence_navigation =
             new BT::SequenceNodeWithMemory("Seq:Navigation");
